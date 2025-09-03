@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "backgroundFilename": "Xbackground1.png",
+    "initialBeeBotPosition": {
+      "x": 2,
+      "y": 4,
+      "dir": 0
+    },
+    "gridSize": 4,
+    "enableDragAndDrop": true,
+    "enableLevels": true,
+    "disableConfigJsonLoad": false,
+    "enableImageFolderLoad": true,
+    "enableSpiders": false
+  }
+}
