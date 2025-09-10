@@ -554,12 +554,7 @@
                 showMessage("Oops! Bee-Bot fell off the grid.", 'text-red-700');
                 return;
             }
-            if (spiderPositions.some(spider => beeBotX === spider.x && beeBotY === spider.y)) {
-                isAnimating = false;
-               // draw();
-                //showMessage("Beware of the spider, avoid it!", 'text-red-700');
-                return;
-            }
+            
             if (currentTargetIndex < targetPositions.length) {
                 const currentTarget = targetPositions[currentTargetIndex];
                 if (beeBotX === currentTarget.x && beeBotY === currentTarget.y) {
