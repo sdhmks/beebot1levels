@@ -8,7 +8,7 @@
     },
     "gridSize": 4,
     "enableDragAndDrop": true,
-    "enableLevels": true,
+    "enableLevels": false,
     "disableConfigJsonLoad": false,
     "enableImageFolderLoad": true,
     "enableSpiders": false
