@@ -409,7 +409,7 @@
                 ctx.stroke();
             }
             drawTargets();
-            drawSpiders();
+           // drawSpiders();
             drawBeeBot(currentX, currentY, currentDir);
         }
 
@@ -556,8 +556,8 @@
             }
             if (spiderPositions.some(spider => beeBotX === spider.x && beeBotY === spider.y)) {
                 isAnimating = false;
-                draw();
-                showMessage("Beware of the spider, avoid it!", 'text-red-700');
+               // draw();
+                //showMessage("Beware of the spider, avoid it!", 'text-red-700');
                 return;
             }
             if (currentTargetIndex < targetPositions.length) {
